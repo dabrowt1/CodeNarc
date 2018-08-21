@@ -506,3 +506,20 @@ Convention Rules  ("<rulesets/convention.xml>")
 -------------------------------------------------------------------------------
     def myList = new Vector()           // violation
 -------------------------------------------------------------------------------
+
+* {EnsureCategoryAnnotationPresentInTestFiles} Rule
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  <Since CodeNarc 1.2>
+
+  Ensure that all test classes are annotated with @Category
+
+  Example of violations:
+
+-------------------------------------------------------------------------------
+    class MyClassTest {                 // violation
+    }
+
+    @Category(UnitTest)                 // violation
+    class MySecondClassTest {
+    }
+-------------------------------------------------------------------------------

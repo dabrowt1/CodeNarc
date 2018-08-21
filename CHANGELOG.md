@@ -1,4 +1,8 @@
 
+#TODO: Sort the following line into the file
+- EnsureCategoryAnnotationPresentInTestFiles rule (convention) - Ensure that all test classes are annotated with @Category
+
+
 # CodeNarc Change Log
 
 TODO: Version 1.2 (??? 2018)
